@@ -1,0 +1,144 @@
+body {
+    background-color: #FFFEEE;
+  }
+#open {
+    display: block;
+    position: absolute;
+    height: 430px;
+    width: auto;
+    margin-left: 75px;
+    margin-top: 200px;
+    z-index: 0;
+}
+#closed {
+    display: block;
+    position: absolute;
+    height: 430px;
+    width: auto;
+    margin-left: 330px;
+    margin-top: 200px;
+    z-index: 0;
+}
+.toys {
+    height: 100px;
+    width: auto;
+    z-index: 1;
+    position: absolute;
+}
+
+/*aligining toys*/
+
+#angel {
+    margin-top: 240px;
+    margin-left: 390px;
+}
+#peep {
+    margin-top: 267px;
+    margin-left: 455px;
+    height: 60px;
+    width: auto;
+}
+#pusheen {
+    margin-top: 230px;
+    margin-left: 525px;
+}
+#bunny {
+    margin-top: 213px;
+    margin-left: 590px;
+    height: 130px;
+    width: auto;
+}
+#shell {
+    margin-top: 298px;
+    margin-left: 395px;
+    height: 130px;
+    width: auto;
+}
+#donkey {
+    margin-top: 335px;
+    margin-left: 475px;
+    height: 90px;
+    width: auto;
+}
+#winter {
+    margin-top: 325px;
+    margin-left: 560px;
+    height: 90px;
+    width: auto;
+}
+#giraffe {
+    margin-top: 320px;
+    margin-left: 630px;
+    height: 90px;
+    width: auto;
+}
+#duck {
+    margin-top: 397px;
+    margin-left: 410px;
+    height: 120px;
+    width: auto;
+    transform: rotate(60deg);
+}
+#frog {
+    margin-top: 397px;
+    margin-left: 488px;
+    height: 110px;
+    width: auto;
+}
+#baguette {
+    margin-top: 410px;
+    margin-left: 570px;
+    transform: rotate(30deg);
+}
+#chair {
+    margin-top: 405px;
+    margin-left: 614px;
+}
+#burger {
+    margin-top: 231px;
+    margin-left: 760px;
+}
+#crab {
+    margin-top: 240px;
+    margin-left: 835px;
+}
+#cat {
+    margin-top: 255px;
+    margin-left: 910px;
+    height: 70px;
+    width: auto;
+}
+#starwars {
+    margin-top: 213px;
+    margin-left: 970px;
+    height: 120px;
+    width: auto;
+}
+#maddy {
+    margin-top: 316px;
+    margin-left: 810px;
+}
+#miffy {
+    margin-top: 288px;
+    margin-left: 890px;
+    transform: rotate(-97deg);
+    height: 170px;
+    width: auto;
+}
+#lamma {
+    margin-top: 398px;
+    margin-left: 760px;
+    transform: rotate(-35deg);
+    height: 140px;
+    width: auto;
+}
+#lion {
+    margin-top: 417px;
+    margin-left: 845px;
+}
+#dino {
+    margin-top: 405px;
+    margin-left: 960px;
+    height: 110px;
+    width: auto;
+}
