@@ -1,144 +1,585 @@
-body {
-    background-color: #FFFEEE;
-  }
-#open {
-    display: block;
+/*words title other tings*/
+    body {
+        background-color: #FFFEEE;
+    }
+    #open {
+        display: block;
+        position: absolute;
+        height: 430px;
+        width: auto;
+        margin-left: 75px;
+        margin-top: 200px;
+        z-index: 0;
+    }
+    #closed {
+        display: block;
+        position: absolute;
+        height: 430px;
+        width: auto;
+        margin-left: 330px;
+        margin-top: 200px;
+        z-index: 0;
+    }
+    .toys {
+        height: 100px;
+        width: auto;
+        z-index: 1;
+        position: absolute;
+    }
+    .title {
+        font-family: 'Reenie Beanie';
+        position: absolute;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        text-align: center;
+        color: #000000;
+        margin-left: 450px;
+        margin-top: 100px;
+    }
+
+/*aligining toys and hover on cabinet*/
+    #angel {
+        margin-top: 240px;
+        margin-left: 390px;
+    }
+    #angel:hover {
+        content: url("photos/baby.png");
+        height: 170px;
+        margin-top: 213px;
+        margin-left: 370px;
+    }
+
+    #peep {
+        margin-top: 267px;
+        margin-left: 455px;
+        height: 60px;
+        width: auto;
+    }
+    #peep:hover {
+        content: url("photos/peep.png");
+        height: 155px;
+        margin-top: 208px;
+        margin-left: 422px;
+    }
+
+    #pusheen {
+        margin-top: 230px;
+        margin-left: 525px;
+    }
+    #pusheen:hover {
+        content: url("photos/pusheen.png");
+        height: 140px;
+        margin-top: 205px;
+        margin-left: 510px;
+    }
+
+
+    #bunny {
+        margin-top: 213px;
+        margin-left: 590px;
+        height: 130px;
+        width: auto;
+    }
+    #bunny:hover {
+        content: url("photos/bunny.png");
+        height: 160px;
+        margin-top: 185px;
+        margin-left: 585px;
+    }
+
+    #shell {
+        margin-top: 298px;
+        margin-left: 395px;
+        height: 130px;
+        width: auto;
+    }
+    #shell:hover {
+        content: url("photos/seashell.png");
+        height: 155px;
+        margin-top: 280px;
+        margin-left: 383px;
+    }
+
+    #donkey {
+        margin-top: 335px;
+        margin-left: 475px;
+        height: 90px;
+        width: auto;
+    }
+    #donkey:hover {
+        content: url("photos/donkey.png");
+        height: 166px;
+        margin-top: 290px;
+        margin-left: 455px;
+    }
+
+    #winter {
+        margin-top: 325px;
+        margin-left: 560px;
+        height: 90px;
+        width: auto;
+    }
+    #winter:hover {
+        content: url("photos/bucky.png");
+        height: 180px;
+        margin-top: 265px;
+        margin-left: 520px;
+    }
+
+    #giraffe {
+        margin-top: 320px;
+        margin-left: 630px;
+        height: 90px;
+        width: auto;
+    }
+    #giraffe:hover {
+        content: url("photos/giraffe.png");
+        height: 175px;
+        margin-top: 280px;
+        margin-left: 600px;
+    }
+
+    #duck {
+        margin-top: 397px;
+        margin-left: 410px;
+        height: 120px;
+        width: auto;
+        transform: rotate(60deg);
+    }
+    #duck:hover {
+        content: url("photos/duck.png");
+        height: 172px;
+        margin-top: 363px;
+        margin-left: 400px;
+    }
+
+    #frog {
+        margin-top: 397px;
+        margin-left: 488px;
+        height: 110px;
+        width: auto;
+    }
+    #frog:hover {
+        content: url("photos/frog.png");
+        height: 164px;
+        margin-top: 370px;
+        margin-left: 469px;
+    }
+
+    #baguette {
+        margin-top: 410px;
+        margin-left: 570px;
+        transform: rotate(30deg);
+    }
+    #baguette:hover {
+        content: url("photos/pen.png");
+        height: 158px;
+        margin-top: 390px;
+        margin-left: 544px;
+    }
+
+    #chair {
+        margin-top: 405px;
+        margin-left: 614px;
+    }
+    #chair:hover {
+        content: url("photos/yankees.png");
+        height: 158px;
+        margin-top: 391px;
+        margin-left: 597px;
+    }
+
+    #burger {
+        margin-top: 231px;
+        margin-left: 760px;
+    }
+    #burger:hover {
+        content: url("photos/burgerboy.png");
+        height: 190px;
+        margin-top: 203px;
+        margin-left: 729px;
+    }
+
+    #crab {
+        margin-top: 240px;
+        margin-left: 835px;
+    }
+    #crab:hover {
+        content: url("photos/crab.png");
+        height: 192px;
+        margin-top: 172px;
+        margin-left: 810px;
+    }
+
+    #cat {
+        margin-top: 255px;
+        margin-left: 910px;
+        height: 70px;
+        width: auto;
+    }
+    #cat:hover {
+        content: url("photos/cat.png");
+        height: 189px;
+        margin-top: 195px;
+        margin-left: 867px;
+    }
+
+    #starwars {
+        margin-top: 213px;
+        margin-left: 970px;
+        height: 120px;
+        width: auto;
+    }
+    #starwars:hover {
+        content: url("photos/starwars.png");
+        height: 152px;
+        margin-top: 185px;
+        margin-left: 958px;
+    }
+
+    #maddy {
+        margin-top: 316px;
+        margin-left: 810px;
+    }
+    #maddy:hover {
+        content: url("photos/maddy.png");
+        height: 137px;
+        margin-top: 301px;
+        margin-left: 803px;
+    }
+
+    #miffy {
+        margin-top: 288px;
+        margin-left: 890px;
+        transform: rotate(-97deg);
+        height: 170px;
+        width: auto;
+    }
+    #miffy:hover {
+        content: url("photos/miffy.png");
+        height: 178px;
+        margin-top: 285px;
+        margin-left: 890px;
+    }
+
+    #lamma {
+        margin-top: 398px;
+        margin-left: 760px;
+        transform: rotate(-35deg);
+        height: 140px;
+        width: auto;
+    }
+    #lamma:hover {
+        content: url("photos/lamma.png");
+        height: 180px;
+        margin-top: 385px;
+        margin-left: 750px;
+    }
+
+    #lion {
+        margin-top: 417px;
+        margin-left: 845px;
+    }
+    #lion:hover {
+        content: url("photos/lion.png");
+        height: 148px;
+        margin-top: 395px;
+        margin-left: 827px;
+    }
+
+    #dino {
+        margin-top: 405px;
+        margin-left: 960px;
+        height: 110px;
+        width: auto;
+    }
+    #dino:hover {
+        content: url("photos/dino.png");
+        height: 165px;
+        margin-top: 370px;
+        margin-left: 943px;
+    }
+/*gallery wall vague*/
+    .frame0 {
+        height: 250px;
+        width: auto;
+    }
+    .frame1 {
+        height: 170px;
+        width: auto;
+    }
+    .frame2 {
+        height: 210px;
+        width: auto;
+    }
+    .frame3 {
+        height: 250px;
+        width: auto;
+    }
+    .frame4 {
+        height: 150px;
+        width: auto;
+    }
+    .frame5 {
+        height: 200px;
+        width: auto;
+    }
+/*gallery wall annoying*/
+#group1 {
+    margin-left:50px;
+    margin-top:40px;
+    display: flex;
     position: absolute;
-    height: 430px;
-    width: auto;
-    margin-left: 75px;
-    margin-top: 200px;
-    z-index: 0;
 }
-#closed {
-    display: block;
+#group1-1 {
+    height:150px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+#group2 {
+    margin-left:210px;
+    margin-top:80px;
+    display: flex;
     position: absolute;
-    height: 430px;
-    width: auto;
+}
+#group2-1 {
+    height:100px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#group3 {
+    margin-left:420px;
+    margin-top:110px;
+    display: flex;
+    position: absolute;
+}
+#group3-1 {
+    height:180px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#group4 {
+    margin-left:660px;
+    margin-top:50px;
+    display: flex;
+    position: absolute;
+}
+#group4-1 {
+    height:80px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+#group5 {
+    margin-left:1000px;
+    margin-top:30px;
+    display: flex;
+    position: absolute;
+}
+#group5-1 {
+    height:120px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#group6 {
+    margin-left:1200px;
+    margin-top:60px;
+    display: flex;
+    position: absolute;
+}
+#group6-1 {
+    height:130px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+#group7 {
+    margin-left:1250px;
+    margin-top:340px;
+    display: flex;
+    position: absolute;
+}
+#group7-1 {
+    height:150px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+#group8 {
+    margin-left:1080px;
+    margin-top:260px;
+    display: flex;
+    position: absolute;
+}
+#group8-1 {
+    height:80px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+#group9 {
+    margin-left:870px;
+    margin-top:180px;
+    display: flex;
+    position: absolute;
+}
+#group9-1 {
+    height:100px;
+    margin-top: 110px;
+    margin-left: 55px;
+}
+
+#group10 {
+    margin-left:700px;
+    margin-top:240px;
+    display: flex;
+    position: absolute;
+}
+#group10-1 {
+    height:140px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#group11 {
+    margin-left:380px;
+    margin-top:340px;
+    display: flex;
+    position: absolute;
+}
+#group11-1 {
+    height:120px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#group12 {
+    margin-left:200px;
+    margin-top:300px;
+    display: flex;
+    position: absolute;
+    transform: rotate(90deg);
+}
+#group12-1 {
+    height:120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transform: rotate(-90deg);
+}
+
+#group13 {
+    margin-left: 40px;
+    margin-top:315px;
+    display: flex;
+    position: absolute;
+}
+#group13-1 {
+    height:100px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#group14 {
+    margin-left: 70px;
+    margin-top:480px;
+    display: flex;
+    position: absolute;
+}
+#group14-1 {
+    height:150px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+#group15 {
     margin-left: 330px;
-    margin-top: 200px;
-    z-index: 0;
-}
-.toys {
-    height: 100px;
-    width: auto;
-    z-index: 1;
+    margin-top:510px;
+    display: flex;
     position: absolute;
 }
+#group15-1 {
+    height:120px;
+    margin-top: 55px;
+    margin-left: 30px;
+}
 
-/*aligining toys*/
+#group16 {
+    margin-left: 490px;
+    margin-top:580px;
+    display: flex;
+    position: absolute;
+}
+#group16-1 {
+    height:160px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
 
-#angel {
-    margin-top: 240px;
-    margin-left: 390px;
+#group17 {
+    margin-left: 800px;
+    margin-top:385px;
+    display: flex;
+    position: absolute;
+    transform: rotate(90deg);
 }
-#peep {
-    margin-top: 267px;
-    margin-left: 455px;
-    height: 60px;
-    width: auto;
+#group17-1 {
+    height:140px;
+    margin-top: 60px;
+    margin-left: 10px;
+    transform: rotate(-90deg);
 }
-#pusheen {
-    margin-top: 230px;
-    margin-left: 525px;
+
+#group18 {
+    margin-left: 1000px;
+    margin-top:630px;
+    display: flex;
+    position: absolute;
 }
-#bunny {
-    margin-top: 213px;
-    margin-left: 590px;
-    height: 130px;
-    width: auto;
+#group18-1 {
+    height:70px;
+    margin-top: 40px;
+    margin-left: 30px;
 }
-#shell {
-    margin-top: 298px;
-    margin-left: 395px;
-    height: 130px;
-    width: auto;
+
+#group19 {
+    margin-left: 1050px;
+    margin-top:420px;
+    display: flex;
+    position: absolute;
 }
-#donkey {
-    margin-top: 335px;
-    margin-left: 475px;
-    height: 90px;
-    width: auto;
+#group19-1 {
+    height:100px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
-#winter {
-    margin-top: 325px;
-    margin-left: 560px;
-    height: 90px;
-    width: auto;
+
+#group20 {
+    margin-left: 515px;
+    margin-top:350px;
+    display: flex;
+    position: absolute;
 }
-#giraffe {
-    margin-top: 320px;
-    margin-left: 630px;
-    height: 90px;
-    width: auto;
+#group20-1 {
+    height:100px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
-#duck {
-    margin-top: 397px;
-    margin-left: 410px;
-    height: 120px;
-    width: auto;
-    transform: rotate(60deg);
+
+#group21 {
+    margin-left: 780px;
+    margin-top:600px;
+    display: flex;
+    position: absolute;
+    transform: rotate(90deg);
 }
-#frog {
-    margin-top: 397px;
-    margin-left: 488px;
-    height: 110px;
-    width: auto;
-}
-#baguette {
-    margin-top: 410px;
-    margin-left: 570px;
-    transform: rotate(30deg);
-}
-#chair {
-    margin-top: 405px;
-    margin-left: 614px;
-}
-#burger {
-    margin-top: 231px;
-    margin-left: 760px;
-}
-#crab {
-    margin-top: 240px;
-    margin-left: 835px;
-}
-#cat {
-    margin-top: 255px;
-    margin-left: 910px;
-    height: 70px;
-    width: auto;
-}
-#starwars {
-    margin-top: 213px;
-    margin-left: 970px;
-    height: 120px;
-    width: auto;
-}
-#maddy {
-    margin-top: 316px;
-    margin-left: 810px;
-}
-#miffy {
-    margin-top: 288px;
-    margin-left: 890px;
-    transform: rotate(-97deg);
-    height: 170px;
-    width: auto;
-}
-#lamma {
-    margin-top: 398px;
-    margin-left: 760px;
-    transform: rotate(-35deg);
-    height: 140px;
-    width: auto;
-}
-#lion {
-    margin-top: 417px;
-    margin-left: 845px;
-}
-#dino {
-    margin-top: 405px;
-    margin-left: 960px;
-    height: 110px;
-    width: auto;
+#group21-1 {
+    height:90px;
+    margin-top: 40px;
+    margin-left: 40px;
+    transform: rotate(-90deg);
 }
